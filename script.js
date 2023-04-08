@@ -34,6 +34,7 @@ const createTitleContainer = (title) => {
   itemTitle.innerText = title;
   const itemIcon = document.createElement('img');
   itemIcon.setAttribute('src', './images/icon-ellipsis.svg');
+  itemIcon.setAttribute('alt', 'ellipsis icon');
   titleContainer.appendChild(itemTitle);
   titleContainer.appendChild(itemIcon);
   return titleContainer;
